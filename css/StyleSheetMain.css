@@ -1,0 +1,252 @@
+/******** Default Layout Formatting *********/
+
+body{
+	/*background-image:url("mochaGrunge_@2XV2.png");*/
+	/*background: rgb(254, 198, 255);  */
+	background: rgb(229, 204, 255);
+	max-width: 950px;
+	min-width: 940px;
+	font-family: 'Roboto','Times New Roman', sans-serif; 	
+	font-size: 12pt;
+	color: rgb(59,59,59);
+	padding: 10px;
+	margin: 0px auto;	
+	overflow-y: scroll;
+    }
+
+.mainHeader{
+	margin-bottom: 0;
+	margin-top: 0;
+	overflow: auto;
+    }
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h2{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+
+/*******		BUTTON      *************/
+.nav{
+	background: none;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+	min-width: 940px;
+    }
+
+.nav ul{
+	float:left;
+	left: 50%;
+	list-style: none;
+	margin: 1% 0%;
+	padding: 0;
+	position: relative;
+	text-align: center;
+    }
+
+.nav ul li{
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	right: 50%;
+    }
+
+.nav a{
+	background: none;
+	border: 1px solid black;
+	color: black;
+	display: table-cell;
+	font-family: Courier;
+	font-size: 20px;
+	line-height: 38px;
+	padding: 0 40px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+	text-transform: uppercase;
+    }
+
+.nav a:hover {
+	background: #454d59;
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.4);
+	color: #d0d2d5;
+	font-size: 20px;
+    }
+
+/* Round off the left edges */
+.nav li:first-child a {
+	border-left: none;
+	border-radius: 10px 0 0 10px;
+    }
+
+/* Round off the right edges */
+.nav li:last-child a {
+	border-right: none;
+	border-radius: 0 10px 10px 0;
+    }
+
+
+/*******     Links    **********/
+
+.logo{
+	position: relative;
+	overflow: hidden;
+    }
+
+.LeftLinks{
+	text-align: center;
+	list-style: none;
+	font-weight: lighter;
+	font-style: normal;
+	float:left;
+	background: none;
+	border-right: 1px solid gray;
+	height: 700px;
+	margin-top: 50px;
+	padding: 5px;
+	width: 200px;
+	position: fixed;
+	top: 5%;
+	left: 0%;
+	line-height: 40px;
+	display: block;
+    }
+
+.RightLinks{
+	text-align: center;
+	list-style: none;
+	font-weight: lighter;
+	font-style: normal;
+	float:right;
+	background: none;
+	border-left: 0px solid gray;
+	height: 700px;
+	margin-top: 50px;
+	padding: 5px;
+	width: 100px;
+	position: fixed;
+	top: 5%;
+	right: 0%;
+	line-height: 40px;
+	display: block;
+    }
+
+.blogTitles{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+    }
+
+/******** End Default Layout Formatting *********/
+
+
+/************  Blog Formatting ***********/
+.blogLanding{
+	list-style: none;
+	margin: -1px 0px 0px -40px;
+	padding: 0px;
+	}
+
+.postTitle{
+	font-size: 30pt;
+	text-align: center;
+	margin: 0px 250px;
+    }
+
+.author{
+	text-align: center;
+	margin: 0px 250px;
+	font-size: 16px;
+    }
+
+.date{
+	text-align: center;
+	margin: 0px 250px;
+    }
+
+.post{
+	text-align: left;
+	margin: 0% 15%;
+    }
+
+.centeredImageNoBorder img{
+	border: none;
+	margin-left: 40%;
+	margin-right: 50%;
+    }
+
+
+/***************************************
+*		Card Layout Additions	       */
+
+.Address{
+	margin-top: 20px;
+    }
+
+.externalWebImg{
+    border: 1px solid rgb(136, 136, 136);
+    float: right;
+    }
+
+/***************************************
+*		Other	       */
+
+.welcomePageHeaders{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+    }
+
+.welcomePageBlogTitle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+    }
+
+/***************************************
+*		Contact Page	       */
+
+.contactList{
+	list-style: none;
+	border-left: 0px solid gray;
+	height: 700px;
+	margin-top: 50px;
+	padding: 5px;
+	top: 5%;
+	position: relative;
+	right: 250px;
+	line-height: 40px;
+	display: block;
+    }
+
+.contactItem{
+	font-size: 60px;
+	height: 115px;
+	text-align: right;
+    }
+
+
+/* 		END BODY	       *
+****************************************
+*		FOOTER		       */
+
+.mainFooter{
+	border-top: 2px solid gray;
+	text-align: center;
+	position:fixed;
+	bottom: 0px;
+   }
+
+/*		END FOOTER	       *
+****************************************/
